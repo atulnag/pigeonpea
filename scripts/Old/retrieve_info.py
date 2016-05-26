@@ -1,4 +1,4 @@
-#import webpages
+#import webpages from LegumeIP and extract components
 import urllib2
 #System
 import os
@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 def retrieve_seq(id):
 	global errors
-	#proxy = urllib2.ProxyHandler({'http': 'http://atul_nag:nag2910@10.0.0.6:8080'})
+	#proxy = urllib2.ProxyHandler({'http': 'http://username:password@proxy:port'})
 	#auth = urllib2.HTTPBasicAuthHandler()
 	#opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
 	#urllib2.install_opener(opener)
