@@ -8,8 +8,11 @@ import MySQLdb as mdb
 
 error = open("errors2.txt","w")
 
+#use fasplit PigeonPeaProteins and CDS
+
+
 try:
-	con = mdb.connect('localhost','Ccajan','Ccajan','Ccajan')
+	con = mdb.connect('host','username','password','database')
 	file = open("../blastdb/CCids.txt")
 
 	for line in file:
